@@ -163,7 +163,7 @@
             地点:街道/镇
             </summary>
         </member>
-        <member name="P:Memoyu.Mbill.Application.Contracts.Dtos.Bill.Statement.ModifyStatementDto.Date">
+        <member name="P:Memoyu.Mbill.Application.Contracts.Dtos.Bill.Statement.ModifyStatementDto.Year">
             <summary>
             记录日期：日期
             </summary>
@@ -299,9 +299,24 @@
             街道
             </summary>
         </member>
+        <member name="P:Memoyu.Mbill.Application.Contracts.Dtos.User.UserDto.Address">
+            <summary>
+            地址详情
+            </summary>
+        </member>
         <member name="P:Memoyu.Mbill.Application.Contracts.Dtos.User.UserDto.AvatarUrl">
             <summary>
             头像地址
+            </summary>
+        </member>
+        <member name="P:Memoyu.Mbill.Application.Contracts.Dtos.User.UserDto.LastLoginTime">
+            <summary>
+            最后一次登录的时间
+            </summary>
+        </member>
+        <member name="P:Memoyu.Mbill.Application.Contracts.Dtos.User.UserDto.IsEnable">
+            <summary>
+            是否启用
             </summary>
         </member>
         <member name="F:Memoyu.Mbill.Application.Contracts.Exceptions.KnownException._statusCode">
